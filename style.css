@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, "Microsoft YaHei", sans-serif;
+    background: #f6f7f9;
+    color: #1f2937;
+  }
+
+  .page {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 48px 20px;
+  }
+
+  .hero {
+    padding: 72px 0 56px;
+  }
+
+  .eyebrow {
+    color: #2563eb;
+    font-weight: 700;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin: 12px 0;
+  }
+
+  .intro {
+    max-width: 620px;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  .actions {
+    margin-top: 28px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .actions a {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #111827;
+    color: white;
+    text-decoration: none;
+  }
+
+  .section {
+    margin-top: 32px;
+    padding: 28px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+  }
+
+  .section h2 {
+    margin-top: 0;
+  }
+
+
