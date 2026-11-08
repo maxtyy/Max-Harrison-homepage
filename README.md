@@ -10,9 +10,9 @@ Personal website for Max Harrison, a postgraduate student in Financial Technolog
 
 ## Website
 
-Visit [Max Harrison's personal website](https://maxtyy.github.io/Yongyi-Tao-homepage/).
+Visit [Max Harrison's personal website](https://maxtyy.github.io/Max-Harrison-homepage/).
 
-The site uses plain HTML and CSS and is published through GitHub Pages from the root of the `main` branch. The existing repository URL is retained so existing links continue to work.
+The site uses plain HTML and CSS and is published through GitHub Pages from the root of the `main` branch.
 
 ## Local preview
 
