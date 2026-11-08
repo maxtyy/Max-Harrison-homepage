@@ -18,7 +18,7 @@ The site uses plain HTML and CSS and is published through GitHub Pages from the 
 
 The [Projects section](https://maxtyy.github.io/Max-Harrison-homepage/#projects) features **QuantForge**, including its strategies, execution model, risk controls, paper accounts, and technology stack.
 
-[QuantForge on GitHub](https://github.com/maxtyy/quantforge) is a private repository; source access requires authorization.
+[QuantForge on GitHub](https://github.com/maxtyy/quantforge) is a public, open-source repository available under the MIT License.
 
 ## Local preview
 
