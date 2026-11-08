@@ -1,44 +1,97 @@
- <!DOCTYPE html>
-  <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yongyi Tao | Personal page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Personal page</p>
-        <h1>Yongyi Tao</h1>
-        <p class="intro">
-          我关注区块链开发、智能合约、Web3 应用和技术产品构建。
-        </p>
-        <div class="actions">
-          <a href="mailto:tyy38484@email.com">Contact me</a>
-          <a href="https://github.com/maxtyy" target="_blank">GitHub</a>
-        </div>
-      </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Max Harrison — FinTech postgraduate student at The Hong Kong Polytechnic University, with research interests in quantitative trading and gambling risk management, and internship experience at HSBC." />
+  <meta name="theme-color" content="#f6f7f9" />
+  <title>Max Harrison | FinTech &amp; Quantitative Research</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">FINTECH · QUANTITATIVE RESEARCH · RISK MANAGEMENT</p>
+      <h1>Max Harrison</h1>
+      <p class="intro">
+        A FinTech postgraduate student exploring quantitative trading
+        and risk management through data and research.
+      </p>
+      <p class="affiliation">The Hong Kong Polytechnic University</p>
+      <div class="actions">
+        <a href="https://github.com/maxtyy" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
+        <a class="secondary" href="#research">Explore my interests <span aria-hidden="true">↓</span></a>
+      </div>
+    </header>
 
-      <section class="section">
-        <h2>About me</h2>
-        <p>
-          A undergraduate student from Shenzhen university,interested in smart contract and looking for partner.
-        </p>
-      </section>
+    <section class="section" aria-labelledby="about-title">
+      <p class="section-label">01 / ABOUT</p>
+      <h2 id="about-title">Finance, technology, and decision-making.</h2>
+      <p>
+        I am a postgraduate student in Financial Technology at The Hong Kong
+        Polytechnic University. My research interests include quantitative trading
+        and gambling risk management. I am interested in how data, statistical
+        methods, and software can support decisions under uncertainty.
+      </p>
+      <p>
+        Alongside my academic studies, I have internship experience at HSBC.
+        I aim to connect my interests in financial technology and risk with
+        practical research and implementation.
+      </p>
+    </section>
 
-      <section class="section">
-        <h2>技能方向</h2>
-        <ul>
-          <li>前端开发：HTML / CSS / JavaScript / React</li>
-          <li>区块链开发：Solidity / Foundry / ethers.js</li>
-          <li>产品能力：项目设计、Demo 构建、黑客松作品</li>
-        </ul>
-      </section>
+    <section class="section" id="research" aria-labelledby="research-title">
+      <p class="section-label">02 / RESEARCH INTERESTS</p>
+      <h2 id="research-title">Understanding returns. Managing uncertainty.</h2>
+      <div class="interest-grid">
+        <article>
+          <h3>Quantitative trading</h3>
+          <p>
+            I have explored quantitative trading and am interested in systematic
+            strategies, historical backtesting, and the relationship between
+            performance, trading costs, and risk.
+          </p>
+        </article>
+        <article>
+          <h3>Gambling risk management</h3>
+          <p>
+            I have also researched risk management in gambling, with an interest
+            in probability, uncertainty, and how risk controls inform decisions.
+          </p>
+        </article>
+      </div>
+    </section>
 
-      
-    </main>
-  </body>
-  </html>
+    <section class="section" aria-labelledby="background-title">
+      <p class="section-label">03 / BACKGROUND</p>
+      <h2 id="background-title">Education &amp; experience</h2>
+      <div class="background-item">
+        <div><h3>The Hong Kong Polytechnic University</h3><p>Postgraduate studies in Financial Technology</p></div>
+        <span class="tag">EDUCATION</span>
+      </div>
+      <div class="background-item">
+        <div><h3>HSBC</h3><p>Internship experience</p></div>
+        <span class="tag">EXPERIENCE</span>
+      </div>
+    </section>
 
+    <section class="section" aria-labelledby="project-title">
+      <p class="section-label">04 / PROJECT</p>
+      <h2 id="project-title">QuantForge</h2>
+      <p>
+        A Python platform for quantitative research, backtesting, and local paper
+        trading. It brings together market data, strategy experiments, trading
+        costs, risk controls, and performance reporting in a research dashboard.
+      </p>
+      <ul class="project-details" aria-label="Project areas">
+        <li>Strategy research</li><li>Backtesting</li><li>Risk controls</li><li>Paper trading</li>
+      </ul>
+    </section>
 
+    <footer>
+      <span>Max Harrison</span>
+      <a href="https://github.com/maxtyy" target="_blank" rel="noopener noreferrer">github.com/maxtyy <span aria-hidden="true">↗</span></a>
+    </footer>
+  </main>
+</body>
+</html>
