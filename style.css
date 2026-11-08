@@ -48,3 +48,10 @@ footer a { color: #64748b; text-decoration: none; }
   footer { flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.project-card { border-top: 1px solid #e5e7eb; padding-top: 24px; }
+.project-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+.project-heading h3 { margin: 0; font-size: 25px; letter-spacing: -.5px; }
+.project-features { padding-left: 20px; color: #526174; font-size: 14px; line-height: 1.8; }
+.project-features li + li { margin-top: 6px; }
+.section .project-note { font-size: 12px; line-height: 1.6; }

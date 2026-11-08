@@ -20,7 +20,7 @@
       <p class="affiliation">The Hong Kong Polytechnic University</p>
       <div class="actions">
         <a href="https://github.com/maxtyy" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
-        <a class="secondary" href="#research">Explore my interests <span aria-hidden="true">↓</span></a>
+        <a class="secondary" href="#projects">View projects <span aria-hidden="true">↓</span></a>
       </div>
     </header>
 
@@ -75,17 +75,33 @@
       </div>
     </section>
 
-    <section class="section" aria-labelledby="project-title">
-      <p class="section-label">04 / PROJECT</p>
-      <h2 id="project-title">QuantForge</h2>
-      <p>
-        A Python platform for quantitative research, backtesting, and local paper
-        trading. It brings together market data, strategy experiments, trading
-        costs, risk controls, and performance reporting in a research dashboard.
-      </p>
-      <ul class="project-details" aria-label="Project areas">
-        <li>Strategy research</li><li>Backtesting</li><li>Risk controls</li><li>Paper trading</li>
-      </ul>
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <p class="section-label">04 / PROJECTS</p>
+      <h2 id="projects-title">Selected projects</h2>
+      <article class="project-card" aria-labelledby="quantforge-title">
+        <div class="project-heading">
+          <h3 id="quantforge-title">QuantForge</h3>
+          <span class="tag">QUANTITATIVE FINANCE</span>
+        </div>
+        <p>
+          A Python platform for quantitative research, backtesting, and local paper
+          trading. Explore systematic strategies through an interactive dashboard,
+          with explicit trading costs and risk controls.
+        </p>
+        <ul class="project-features">
+          <li>Moving average trend, time-series momentum, and mean reversion strategies.</li>
+          <li>Next-open backtesting with commissions, slippage, and performance reports.</li>
+          <li>Position limits, volatility scaling, and drawdown controls.</li>
+          <li>Persistent paper accounts with cash checks and duplicate-order protection.</li>
+        </ul>
+        <ul class="project-details" aria-label="QuantForge technology stack">
+          <li>Python</li><li>pandas</li><li>FastAPI</li><li>SQLite</li><li>GitHub Actions</li>
+        </ul>
+        <div class="actions">
+          <a href="https://github.com/maxtyy/quantforge" target="_blank" rel="noopener noreferrer" aria-describedby="quantforge-access">View QuantForge on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="project-note" id="quantforge-access">Private repository — GitHub access is required to view the source code.</p>
+      </article>
     </section>
 
     <footer>
